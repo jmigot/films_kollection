@@ -1,0 +1,210 @@
+/**************************************************\
+		Global
+\**************************************************/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	margin: 30px 0 40px 50px;
+	color: #5555CC;
+}
+
+h2
+{
+	margin: 30px 0;
+	color: #5555CC;
+}
+
+h3
+{
+	margin: 15px 0 10px 30px;
+	color: #5555CC;
+}
+
+p
+{
+	margin-left: 30px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #5555CC;
+}
+
+/**************************************************\
+		Logo
+\**************************************************/
+#logo
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#logo table
+{
+	float: left;
+}
+
+#logo img
+{
+	float: left;
+	width: 250px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#logo p
+{
+	padding-top: 60px;
+}
+
+/**************************************************\
+		Menu
+\**************************************************/
+#menu
+{
+	clear: left;
+	background: #1e4262;
+	margin: 0 auto;
+	width: 95%;
+	text-align: center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+}
+
+#menu ul li
+{
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+}
+
+#menu a
+{
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 90%;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#menu a:hover
+{
+	background: #3f6383;
+}
+
+#content
+{
+	margin: 15px auto 0 auto;
+	width: 90%;
+}
+
+/**************************************************\
+		index.php
+\**************************************************/
+.index_p
+{
+	padding-top: 50px;
+	font-size: 120%;
+}
+
+.index_img
+{
+	float: left;
+	margin-right: 15px;
+}
+
+.index_ulFeatures
+{
+	clear: left;
+	list-style-type: square;
+	margin-left: 80px;
+	padding: 15px 0;
+}
+
+#clear
+{
+	clear: left;
+	padding: 50px 0 30px 50px;
+}
+
+/**************************************************\
+		download.php
+\**************************************************/
+.download_table
+{
+	margin: 10px 0 0 50px;
+}
+
+.download_table td
+{
+	padding-right: 20px;
+}
+
+.download_warning
+{
+	color: #FF0000;
+	margin: 15px 0 0 0;
+}
+
+/**************************************************\
+		screenshots.php
+\**************************************************/
+.screenshots_img
+{
+	text-align: center;
+}
+
+/**************************************************\
+		nextFeatures.php
+\**************************************************/
+.nextFeatures_table
+{
+	margin: 30px 0 0 50px;
+}
+
+.nextFeatures_table img
+{
+	margin-right: 10px;
+}
+
+.nextFeatures_done
+{
+	list-style-image: url( 'images/done.png' );
+}
+
+.nextFeatures_notDone
+{
+	background-image: url( 'images/notDone.png' );
+}
+
+/**************************************************\
+		participate.php
+\**************************************************/
+.participate_ul
+{
+	list-style-type: square;
+	margin: 10px 0 0 80px;
+}
+
+.participate_warning
+{
+	color: #FF0000;
+}
+
+/**************************************************\
+		Footer
+\**************************************************/
+#footer
+{
+	margin-bottom: 50px;
+}

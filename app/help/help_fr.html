@@ -1,0 +1,180 @@
+﻿
+<style type="text/css">
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+h2
+{
+	color: #0066CC;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+p
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: large;
+}
+
+ul
+{
+	list-style-type: square;
+	font-size: large;
+}
+
+a
+{
+	text-decoration: none;
+	color: #5555CC;
+}
+</style>
+
+<h2>Comment ça marche?</h2>
+<p>
+	En ouvrant FilmsKollection, vous arrivez sur la collection par défaut : <b>Collection</b>.<br />
+	Vous pouvez commencer à y ajouter des films (<b>Collection -&gt; Scanner un dossier</b>).<br />
+	Une fois vos films ajoutés, vous pouvez lancer la mise à jour par internet (<b>Collection -&gt; Mettre les films à jour</b>).<br />
+	Quand la mise à jour est terminée, vérifiez rapidement votre collection, pour voir si certains films sont incomplets (en gras dans la liste), et corrigez les.<br />
+	Vous pouvez maintenant profiter de votre collection !
+</p>
+
+<h2>Gérer les collections</h2>
+<p>
+	Utilisez <b>Fichier -&gt; Créer une collection</b> pour créer une nouvelle collection (créée dans le dossier <b>collections</b> à côté du programme) et
+	<b>Fichier -&gt; Ouvrir une collection</b> pour ouvrir une autre collection (située n'importe où dans l'ordinateur).
+</p>
+
+<h2>Ajouter/Supprimer des films</h2>
+<p>
+	Utilisez <b>Collection -&gt; Ajouter des films</b> pour ajouter des films (mettez un film par ligne), ou <b>Collection -&gt; Scanner un dossier</b> pour scanner un dossier récursivement
+	et trouver des films.<br /><br />
+
+	Utilisez le clic-droit sur un film ou une sélection de films, puis cliquez sur <b>Supprimer</b> pour les enlever de la collection. Si vous cochez la case <b>Supprimer également les fichiers</b>,
+	le programme ira supprimer les fichiers correspondants s'ils existent).<br /><br />
+
+	Utilisez <b>Collection -&gt; Re-scanner les dossiers</b> pour vérifier dans tous les dossiers déjà scannés si de nouveaux fichiers ont été ajoutés, ou si des fichiers correspondant à
+	des films n'existent plus. Vous pouvez alors <b>Ajouter</b> ou <b>Supprimer</b> l'une ou l'autre des listes (ou les deux). Vous avez la possibilité de supprimer des films de chaque liste avant d'appuyer sur ces boutons
+	en sélectionnant le ou les films voulus, puis en appuyant sur <b>Suppr.</b> ou <b>Delete</b> au clavier.
+</p>
+
+<h2>Remplir les informations des films</h2>
+<p>
+	Utilisez <b>Collection -&gt; Mettre les films à jour</b> pour remplir automatiquement les films avec internet. Si vous voulez modifier un film en particulier, un clic-droit sur le film permet plusieurs
+	options : <br />
+
+	<ul>
+		<li><b>Tous les choix</b> pour avoir plusieurs choix de films pour un même titre, vous n'avez plus qu'à choisir le bon, vous pouvez même changer le titre et refaire la recherche,</li>
+		<li><b>Mettre à jour</b> pour remplir automatiquement une fiche en allant chercher les informations sur internet grâce au titre,</li>
+		<li><b>Modifier</b> pour modifier le film manuellement et remplir tous les champs soi-même;</li>
+	</ul>
+</p>
+
+<h2>Utiliser la recherche</h2>
+<p>
+	Choisissez sur quel type de champ vous voulez rechercher (<b>Recherche</b> pour tous les champs).<br />
+	Commencez à écrire votre recherche, des choix seront proposés au fur et à mesure.<br />
+	Vous pouvez voir la liste des choix possibles en cliquant sur la flèche déroulante.<br />
+	La recherche s'effectue en temps réel, vous voyez donc la liste de films rétrécir au fur et à mesure que vous écrivez.<br />
+
+	<ul>
+		<li>Appuyer sur <b>Entrée</b> pendant que vous écrivez une recherche permet d'afficher le film suivant dans la liste,</li>
+		<li>Vous n'avez pas besoin d'écrire les accents (<i>Destinee</i> équivaut à <i>Destinée</i>),</li>
+		<li>La durée, l'année et la note peuvent être précédées de 5 signes différents :
+			<ul>
+				<li>~ pour l'approximation (<b>durée</b> +/- 10%, <b>note</b> +/- 1, <b>année</b> +/- 2 ans)</li>
+				<li>&lt;, &lt;=, &gt; et &gt;= pour l'inférieur ou le supérieur</li>
+			</ul>
+		</li>
+	</ul>
+</p>
+
+<h2>Afficher une sélection de films uniquement</h2>
+<p>
+	Pour chaque film ou sélection que vous voulez garder, faites <b>Clic-droit -&gt; Cocher</b>, ensuite cliquez sur <b>Montrer les films : Cochés</b> en haut à droite.
+	Seuls les films qui vous intéressent apparaîtront alors.
+</p>
+
+<h2>Fusion/Défusion</h2>
+<p>
+	En sélectionnant plusieurs films, il est possible de les fusionner (films en plusieurs parties, par exemple). La fusion fera disparaitre tous les films de la liste excepté le premier de la sélection.
+	La fiche du premier film proposera un menu pour les boutons <b>Lancer le film</b> et <b>Lancer la bande-annonce</b> pour choisir de quel film
+	parmis tous ceux fusionnés on parle.<br /><br />
+
+	Défusionner un film fera réapparaître dans la liste tous les films fusionnés avec ce film.
+</p>
+
+<h2>Changer dossier</h2>
+<p>
+	Si vous décidez de renommer un dossier comportant plusieurs films, les films de votre collection ne trouveront plus leur fichier associé. Pour remédier à ceci, faites une recherche par dossier en
+	sélectionnant celui que vous venez de renommer, puis sélectionnez tous les films présents dans la liste (<b>Ctrl</b> + <b>A</b>) et faite clic-droit, puis <b>Changer le dossier</b> pour leur
+	réaffecter un nouveau chemin. Vous pouvez trouver l'ancien dossier dans la liste déroulante, et vous n'avez plus qu'à faire le changement de nom voulu.
+</p>
+
+<h2>Renommer les fichier</h2>
+<p>
+	Si vous souhaitez renommer tous vos fichiers correctement, vous pouvez lancer <b>Collection -&gt; Renommer les fichiers</b> et choisir quel champ utiliser (le titre ou le titre original).<br />
+	Parfois le titre original est vide, c'est pourquoi le programme vous propose de le remplacer par le titre dans ces cas-là.<br />
+	Sur les systèmes Windows, certains caractères sont interdits dans les noms de fichiers, le programme va alors les remplacer par des caractères valides ou les supprimer (selon les caractères). Si vous
+	êtes sur un autre système, vous pouvez décocher la case, mais nous vous conseillons de la garder quelque soit votre système (ainsi si vous voulez accéder au fichier sur un autre système basé sur Windows,
+	vous n'aurez pas de problèmes).
+</p>
+
+<h2>Préférences</h2>
+<p>
+	<ul>
+		<li><b>Collection par défaut</b> définit quelle collection sera ouverte au démarrage du programme. La liste des collections possibles est créée à partir des fichiers du dossier
+		<b>collections</b> à côté du programme,</li>
+		<li><b>Nombre d'acteurs à afficher</b> définit combien d'acteurs le programme doit afficher dans les infos d'un film,</li>
+		<li><b>Taille minimum de film pour le scan (en Mo)</b> définit la taille minimale que devra faire un fichier pour être pris en compte en tant que film lors du scan d'un dossier,</li>
+		<li><b>Montrer le chemin complet des fichiers</b> définit si le programme doit afficher l'url complète d'un film, incluant les dossiers le contenant, ou simplement le nom du fichier avec
+		son extension,</li>
+		<li><b>Lancer directement les films aléatoires</b> définit si le programme doit lancer les films choisis avec le bouton <b>Film aléatoire</b> de la barre de recherche ou simplement
+		afficher les infos du film et attendre que l'utilisateur appuie lui-même sur le bouton <b>Lancer le film</b>,</li>
+		<li><b>Extensions à prendre en compte pour le scan de dossiers</b> définit la liste des extensions (une par ligne) qui doivent être considérées comme étant des films lors du scan de dossiers
+		(ne peut être composé que de lettres minuscules/majuscules, de chiffres et de - et _);</li>
+	</ul>
+</p>
+
+<h2>Explorer la collection</h2>
+<p>
+	FilmsKollection utilise un format de base de données nommé SQLite (version 3), et toutes les données d'une collection sont stockées dans un fichier <b>Nom-de-la-collection.db3</b>.
+	Pour lire ce fichier vous-même, vous devez utiliser un logiciel externe. Nous vous proposons un logiciel libre et gratuit : SQLite database browser.<br />
+
+	<ul>
+		<li>Site web officiel : <a href="http://sqlitebrowser.sourceforge.net">http://sqlitebrowser.sourceforge.net</a></li>
+		<li>Téléchargement : <a href="http://sourceforge.net/projects/sqlitebrowser/">http://sourceforge.net/projects/sqlitebrowser/</a></li>
+	</ul>
+</p>
+
+<h2>Astuces</h2>
+<p>
+	Faire un double clic sur un film dans la liste permet de lancer le film.
+</p>
+
+<h2>Mettre le logiciel à jour</h2>
+<p>
+	Si le téléchargement automatique ne fonctionne pas, réessayer en lançant FilmsKollection avec des droits administrateurs.<br />
+	Si vous n'arrivez toujours pas à mettre à jour, vous devrez télécharger vous-même la dernière version sur le site web (<a href="http://www.filmskollection.org">http://www.filmskollection.org</a>).
+	Une fois décompréssée, copiez-collez votre dossier <b>collections</b> et votre fichier <b>Config.cfg</b> dans le nouveau dossier pour récupérer vos collections et votre configuration.
+</p>
+
+<h2>Contribuer</h2>
+<p>
+	Vous trouvez que FilmsKollection est un projet génial ? Vous avez raison ! Envoyez un email à <a href="mailto:contact@filmskollection.org">contact@filmskollection.org</a>.<br />
+	Nous accepterons de travailler avec vous si vous pouvez notamment apporter votre aide dans les domaines suivants :<br />
+
+	<ul>
+		<li>Coder en C++/Qt (bugs, optimisations, nouvelles fonctionnalités...)</li>
+		<li>Créer de nouvelles icônes (page d'accueil, menus, boutons...)</li>
+		<li>Traduire le logiciel dans plusieurs langues, améliorer les traductions existantes</li>
+		<li>Améliorer le design du programme</li>
+		<li>Améliorer le design du site web</li>
+		<li>Rapporter des bugs à <a href="mailto:contact@filmskollection.org">contact@filmskollection.org</a></li>
+	</ul>
+</p>
+
+<br /><br />

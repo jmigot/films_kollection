@@ -1,0 +1,51 @@
+classes :
+	attributs en premier
+	static const
+	méthodes ensuite
+	slots
+	pour les deux : du public au privé,
+	constructeurs/destructeur, méthodes, get(), set()
+	tous les objets supérieurs à 8 octets doivent être passés en (const Objet &name) ou en pointeurs, sauf si impossible (passe d'un argument à une fonction interne de qt nécessitant lui aussi un
+	(const Objet &name)
+	les méthodes get doivent avoir l'attribut const (pas de modification de l'instance)
+	étendre aux fonctions ne modifiant pas la classe
+
+commentaires :
+/*--------------------------------------------------------------------*\
+		Public
+\*--------------------------------------------------------------------*/
+Loge sur 72 colonnes
+
+Database:
+appeler this->exec(requete); va effectuer la requete et laisser le résultat brut dans (QSqlQuery*)_query
+une fois tous les traitements effectués, appeler this->close() pour nettoyer _query et fermer la connection BDD proprement (si this->close() n'est pas appelé, le prochain this->exec(), qui fait appel
+à this->open(), appelera this->close() avant de réouvrir une nouvelle connection, néamoins la requete restera en mode actif (en attente) et la connection persistera jusqu'au prochain exec (ce qui peut être long)
+
+fichiers:
+les includes : projet, puis qt, puis général
+
+- resources
+ mettre le dossier en prefix
+ - mettre un alias sur chaque resource (moins de code à écrire et plus lisible pour charger les ressources)
+
+ includes
+ inclure dans l'ordre alphabétique (pour repérer les includes en double et pour une meilleure vision lors d'une recherche), d'abord les fichiers persos, puis les libs qt, puis la biblio standard
+
+ - mettre tous les objets en const &
+
+ mettre des espaces avant et après les boutons
+ syntaxe:
+ fonctions
+ variables
+
+ sortir une release:
+- mettre un fichier licence + les dll
+- vérifier les traductions
+- ajouter l'icone
+- compiler en mode release sur windows et linux
+- updater sur le serveur, générer la nouvelle version :
+	- nouvelles sources
+	- nouveaux zips
+	- nouveaux exe dans les dosiers updates
+
+	variables pas créées avec = mais avec ())

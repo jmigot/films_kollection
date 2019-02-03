@@ -1,0 +1,22 @@
+===== A faire ======
+* vérifier filmsList()
+* changer QProcess avec working directory
+- modifier version.txt pour le site web : mettre la dernière version package, pas celle update
+- mettre un splashscreen
+* lors d'un changement de dossier, l'appliquer à tous les films fusionnés également (bug ancien dossier qui reste)
+* la fenetre de chercher les doublons doit etre non bloquante
+* changer le text "Pas de doublons detécté" pour différencier des noms des films (et enlever les sauts de ligne)
+* quand on coche un film/met en vu ou pas vu, ne pas recadrer la liste
+* optimisation de la collection en dehors de la suppression de films (évite les ralentissements à chaque suppression)
+
+* alias de dossiers
+- documentation développeurs (schéma de classes)
+* changer nom du fichier
+* refaire un peu la classe Config ?
+- site web : lien vers anglais et français avec drapeau
+* current row non sélectionnée sur XP, mais sur Seven ?
+
+* changer dossier ne doit etre valable que pour plusieurs films (sinon on se sert de modifier)
+* mettre "changer commentaire" dans modifer film
+
+- vérifier que renommer des fichier se fait aussi sur les parties (coder ça et vérifier sur linux)

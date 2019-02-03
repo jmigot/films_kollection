@@ -1,0 +1,55 @@
+<RCC>
+    <qresource prefix="/lang">
+        <file alias="en">lang/lang_en.qm</file>
+        <file alias="fr">lang/lang_fr.qm</file>
+    </qresource>
+    <qresource prefix="/help">
+        <file alias="en">help/help_en.html</file>
+        <file alias="fr">help/help_fr.html</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="add">images/add.png</file>
+        <file alias="allChoices">images/allChoices.png</file>
+        <file alias="apply_blue">images/apply_blue.png</file>
+        <file alias="apply_green">images/apply_green.png</file>
+        <file alias="benefit">images/benefit.png</file>
+        <file alias="bomb">images/bomb.png</file>
+        <file alias="close">images/close.png</file>
+        <file alias="cross">images/cross.png</file>
+        <file alias="database">images/database.png</file>
+        <file alias="defaultJacket">images/defaultJacket.png</file>
+        <file alias="delete">images/delete.png</file>
+        <file alias="doubloons">images/doubloons.png</file>
+        <file alias="download">images/download.png</file>
+        <file alias="file">images/file.png</file>
+        <file alias="fusion">images/fusion.png</file>
+        <file alias="help">images/help.png</file>
+        <file alias="informations">images/informations.png</file>
+        <file alias="launchFilm">images/launchFilm.png</file>
+        <file alias="launchTrailer">images/launchTrailer.png</file>
+        <file alias="logo">images/logo.png</file>
+        <file alias="modify">images/modify.png</file>
+        <file alias="open">images/open.png</file>
+        <file alias="preferences">images/preferences.png</file>
+        <file alias="quit">images/quit.png</file>
+        <file alias="remove">images/remove.png</file>
+        <file alias="rescan">images/rescan.png</file>
+        <file alias="reset">images/reset.png</file>
+        <file alias="scan">images/scan.png</file>
+        <file alias="star_0">images/star_0.png</file>
+        <file alias="star_25">images/star_25.png</file>
+        <file alias="star_50">images/star_50.png</file>
+        <file alias="star_75">images/star_75.png</file>
+        <file alias="star_100">images/star_100.png</file>
+        <file alias="statistics">images/statistics.png</file>
+        <file alias="switch">images/switch.png</file>
+        <file alias="switchComment">images/switchComment.png</file>
+        <file alias="switchDirPath">images/switchDirPath.png</file>
+        <file alias="unfusion">images/unfusion.png</file>
+        <file alias="update">images/update.png</file>
+        <file alias="url">images/url.png</file>
+        <file alias="rename">images/rename.png</file>
+        <file alias="icon">images/icon.png</file>
+        <file alias="refresh">images/refresh.png</file>
+    </qresource>
+</RCC>

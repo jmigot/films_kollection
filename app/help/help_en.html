@@ -1,0 +1,180 @@
+﻿
+<style type="text/css">
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+h2
+{
+	color: #0066CC;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+p
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: large;
+}
+
+ul
+{
+	list-style-type: square;
+	font-size: large;
+}
+
+a
+{
+	text-decoration: none;
+	color: #5555CC;
+}
+</style>
+
+<h2>How does it work ?</h2>
+<p>
+	By opening FilmsKollection, you are managing default collection: <b>Collection</b>.<br />
+	You can start to add films (<b>Collection -&gt; Scan a dir</b>).<br />
+	As soon as your films are added, you can launch the internet update (<b>Collection -&gt; Update films</b>).<br />
+	When update is finished, check rapidly your collection, to verify if some films are uncomplete (bold in the list), and correct them.<br />
+	You can now enjoy your collection !
+</p>
+
+<h2>Manage collections</h2>
+<p>
+	Use <b>File -&gt; Create collection</b> to create a new collection (created in the <b>collections</b> dir, close to program) and
+	<b>File -&gt; Open collection</b> to open an other collection (located anywhere in the computer).
+</p>
+
+<h2>Add/Remove films</h2>
+<p>
+	Use <b>Collection -&gt; Add films</b> to add films (put one film per line), or <b>Collection -&gt; Scan a dir</b> to scan a dir recursively
+	and find films.<br /><br />
+
+	Use right-clic on a film or a films selection, then clic on <b>Remove</b> to remove them from collection. If you check <b>Also delete files</b> box,
+	program will delete files corresponding if they exist).<br /><br />
+
+	Use <b>Collection -&gt; Re-scan dirs</b> to check in all dirs already scanned if new files have been added, or if files corresponding to
+	some films don't exist anymore. Then you can <b>Add</b> ou <b>Remove</b> one or other of lists (or both). You have the possibility to remove films of each list before clicking on buttons
+	by selecting film(s) you want, then pushing <b>Suppr.</b> or <b>Delete</b> on keyborad.
+</p>
+
+<h2>Fill films informations</h2>
+<p>
+	Use <b>Collection -&gt; Update films</b> to fill films automatically via internet. If you want to modify a particular film, a right-clic on the film allows several
+	options : <br />
+
+	<ul>
+		<li><b>All choices</b> to see several choices of film for a same title, you just have to choose the right one, you can even switch title and re-do the search,</li>
+		<li><b>Update</b> to fill a sheet by getting informations on the internet using title,</li>
+		<li><b>Modify</b> to modify manually the film and to fill all fields yourself;</li>
+	</ul>
+</p>
+
+<h2>Use search engine</h2>
+<p>
+	Choose which kind of field you want to search on (<b>Search</b> for all fields).<br />
+	Start to write your search, some choices will be proposed to you.<br />
+	You can see possible choices list by clicking on arrow down.<br />
+	Search is done in real time, you can see list of films reducing as you are writing.<br />
+
+	<ul>
+		<li>Push <b>Return</b> while you are writing a search permit to show the next film in the list,</li>
+		<li>You don't need to write accents (<i>Destinee</i> is the same as <i>Destinée</i>),</li>
+		<li>Duration, year and note can be preceded by 5 different signs:
+			<ul>
+				<li>~ for approximation (<b>duration</b> +/- 10%, <b>note</b> +/- 1, <b>year</b> +/- 2 years)</li>
+				<li>&lt;, &lt;=, &gt; et &gt;= for inferior or superior</li>
+			</ul>
+		</li>
+	</ul>
+</p>
+
+<h2>Show a selection of films only</h2>
+<p>
+	Foreach film or selection you want to keep, do <b>Right-clic -&gt; Check</b>, then click on <b>Show films: Checked</b> in top right of window.
+	Only films that your are interested in will be shown.
+</p>
+
+<h2>Fusion/Unfusion</h2>
+<p>
+	By selecting several films, it is possible to fusion them (films cut in some parts, for example). Fusion will make disappear of list all films except the first one of selection.
+	The sheet of the first film will propose a menu on buttons <b>Launch film</b> and <b>Launch trailer</b> to choose which film
+	among those fusioned we want to launch.<br /><br />
+
+	Unfusion a film will make reappear in the list all fusioned films with this film.
+</p>
+
+<h2>Switch dir path</h2>
+<p>
+	If you decide to rename a dir containing some films, films of your collection won't find their assoced file anymore. To remedy to this, do a search by dir by
+	seleting that one you just renamed, then select all films present in the list (<b>Ctrl</b> + <b>A</b>) and do <b>Right-clic</b>, then <b>Switch dir path</b> to reassign them
+	a new dir path. You can find the old dir path in the arrow down, and you just have to change the name as wanted.
+</p>
+
+<h2>Rename files</h2>
+<p>
+	If you wich to rename all your files correctly, you can launch <b>Collection -&gt; Rename files</b> and choose which field to use (title or original title).<br />
+	Sometimes original title is empty, so program propose to replace it with title in these cases.<br />
+	On Windows systems, some charaters are forbidden in filenames, program will so replace them with valid characters or remove them (depending on characters). If you
+	are on another system, you can uncheck the box, but we advice you to don't do this (so if you want to access your files on another Windows-based system,
+	you won't have any problem).
+</p>
+
+<h2>Preferences</h2>
+<p>
+	<ul>
+		<li><b>Collection by default</b> define which collection will be opened at start of program. List of all possible collections is created from files of the
+		<b>collections</b> dir, close to program,</li>
+		<li><b>Number of actors to display</b> define how many actors the program must show in film informations,</li>
+		<li><b>Minimum file size for scan (Mo)</b> define the minimum size that a file must have to being taken as a film during scan of a dir,</li>
+		<li><b>Show full path of files</b> define if program must show the complete url of a film, including dirs containing it, or simply show the filename with
+		its extension,</li>
+		<li><b>Launch directly random film</b> define if program must launch directly films chosen with button <b>Random film</b> of search bar or simply
+		show informations of a film and wait for user to click himself on <b>Launch film</b> button,</li>
+		<li><b>Extensions to take when scanning dirs</b> define list of extensions (one per line) that must be considered as films when scanning dirs
+		(can only be composed of letters lowercase/uppercase, numbers and - and _);</li>
+	</ul>
+</p>
+
+<h2>Browse collection</h2>
+<p>
+	FilmsKollection use a database format called SQLite (version 3), and all collection data are stored in a file <b>Name-of-collection.db3</b>.
+	To read this file yourself, you must use an external program. We propose you an open and free program: SQLite database browser.<br />
+
+	<ul>
+		<li>Official web site: <a href="http://sqlitebrowser.sourceforge.net">http://sqlitebrowser.sourceforge.net</a></li>
+		<li>Download: <a href="http://sourceforge.net/projects/sqlitebrowser/">http://sourceforge.net/projects/sqlitebrowser/</a></li>
+	</ul>
+</p>
+
+<h2>Tricks</h2>
+<p>
+	Doing a double-click on a film in the list launchs the film.
+</p>
+
+<h2>Update program</h2>
+<p>
+	If automatic download doesn't work, retry by launching FilmsKollection with administrator rigths.<br />
+	If you still can't update, you have to download yourself the last version on the web site (<a href="http://www.filmskollection.org">http://www.filmskollection.org</a>).
+	Once uncompressed, copy-paste your <b>collections</b> dir and your <b>Config.cfg</b> file in your new dir to get your collection and configuration back.
+</p>
+
+<h2>Contribute</h2>
+<p>
+	You think that FilmsKollection is an amazing project ? You are right ! Send an email to <a href="mailto:contact@filmskollection.org">contact@filmskollection.org</a>.<br />
+	We will accept working with you especially if you can provide assistance in the following areas:<br />
+
+	<ul>
+		<li>Code in C++/Qt (bugs, optimizations, new functionnalities...)</li>
+		<li>Create new icons (welcome page, menus, buttons...)</li>
+		<li>Translate program into some languages, improve existing translations</li>
+		<li>Improve program design</li>
+		<li>Improve web site design</li>
+		<li>Report bugs to <a href="mailto:contact@filmskollection.org">contact@filmskollection.org</a></li>
+	</ul>
+</p>
+
+<br /><br />
